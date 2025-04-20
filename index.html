@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JARVIS AI Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>J.A.R.V.I.S</h1>
+  <canvas id="equalizer" width="320" height="320"></canvas>
+  <div id="statusCircle" class="status-idle"></div>
+  <div id="modeStatus">Idle</div>
+  <div id="response"></div>
+  <button id="speakBtn">Speak to JARVIS</button>
+
+  <audio id="soundIdle" src="https://cdn.pixabay.com/audio/2022/10/27/audio_674c181c85.mp3" preload="auto"></audio>
+  <audio id="soundListening" src="https://cdn.pixabay.com/audio/2022/10/30/audio_21cd982333.mp3" preload="auto"></audio>
+  <audio id="soundSpeaking" src="https://cdn.pixabay.com/audio/2022/11/07/audio_6e5ef3e05d.mp3" preload="auto"></audio>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
